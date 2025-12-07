@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { Button } from "../ui/button";
-import { ActiveLink } from "../active-link/active-link";
-import { Logo } from "../logo";
+import { Button } from "../../ui/button";
+import { ActiveLink } from "../../active-link/active-link";
+import { Logo } from "../../logo";
 
 
 export function Header(){
@@ -14,7 +14,7 @@ export function Header(){
           <Logo />
 
           <nav className="flex items-center gap-6">
-            <ActiveLink href="/">Inicion</ActiveLink>
+            <ActiveLink href="/">Início</ActiveLink>
             <ActiveLink href="/blog">Blog</ActiveLink>
             <Button variant="secondary" asChild>
               <Link href="/comecar">Começar</Link>
