@@ -1,6 +1,6 @@
 import { CallToAction, CustomerStorySection, FeatureSection, HeroSection, SupportSection } from "./sections";
 
-export default function LandingPage() {
+export function LandingPage() {
   return (
     <>
       <article className="flex flex-col">
